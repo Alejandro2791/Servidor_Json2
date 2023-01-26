@@ -22,4 +22,15 @@ git init
 Actualizar en git las modificaciones de archivos
 git add .
 
+Para ver el estatus de los archivos
+git status
+
+Para agregar a raiz los archivos de repositorio
+git commit -m "Inicio de Proyecto"
+
+Para ver el historial de movimientos de Git
+git log
+
+Para recuperar archivos eliminados
+git checkout -- .
 
