@@ -1,0 +1,25 @@
+https://github.com/qauni/json-server.git
+
+git clone https://github.com/qauni/json-server.git
+
+Instalar JSON
+npm install
+
+npm install -g json-server
+
+
+Iniciar el servidor Json
+npm run start
+
+Comandos de git
+-Para identificarse en la PC
+git config --global user.name "Alejandro"
+git config --global user.email "aojeda@aspel.com.mx"
+
+Inicializar una carpeta
+git init
+
+Actualizar en git las modificaciones de archivos
+git add .
+
+
