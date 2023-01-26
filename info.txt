@@ -61,3 +61,5 @@ para viajar en el tiempo a partir DE:
 
 Para ver todos los movimientos realizados con:
     git reflog
+
+Para ignorar un archivo, creamos un archivo llamado .gitignore y en la linea ponemos el nombre del archivo a ignorar
