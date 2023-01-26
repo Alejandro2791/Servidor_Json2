@@ -27,12 +27,16 @@ git add .<Nompre del archivo>
 
 Para ver el estatus de los archivos
 git status
+Para ver el estatus de los archivos más resumidos y con raiz
+git status -s -b
 
 Para agregar a raiz los archivos de repositorio
 git commit -m "Inicio de Proyecto"
 
 Para ver el historial de movimientos de Git
 git log
+Para ver el historial más resumido y grafico
+git log --oneline --decorate --all --graph
 
 Para eliminar archivos que ya están en el repositorio
 git reset *<archivo>
@@ -40,3 +44,20 @@ git reset *<archivo>
 Para recuperar archivos eliminados
 git checkout -- .
 
+Para poner alias a los Comandos
+git config --global alias.lg "log --oneline --decorate --all --graph"
+
+Para consultar todo lo que hemos hecho en config global
+git config --global -e
+
+Para viajar en el tiempo, primero consultamos el log y luego reseteamos
+    git log --oneline --decorate --all --graph
+    git reset --soft "<id de carga que deseamos eliminar>
+    git add .
+    git commit -m "<Comentario a agregar>"
+
+para viajar en el tiempo a partir DE:
+    git reset --hard "<id de carga a partir de donde eliminar>
+
+Para ver todos los movimientos realizados con:
+    git reflog
