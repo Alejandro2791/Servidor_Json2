@@ -22,6 +22,9 @@ git init
 Actualizar en git las modificaciones de archivos
 git add .
 
+Actualizar un solo archivo
+git add .<Nompre del archivo>
+
 Para ver el estatus de los archivos
 git status
 
@@ -30,6 +33,9 @@ git commit -m "Inicio de Proyecto"
 
 Para ver el historial de movimientos de Git
 git log
+
+Para eliminar archivos que ya están en el repositorio
+git reset *<archivo>
 
 Para recuperar archivos eliminados
 git checkout -- .
